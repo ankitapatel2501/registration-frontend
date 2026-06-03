@@ -14,7 +14,7 @@ function Registration() {
     }
 
     try {
-      await axios.post("http://localhost:5501/registration", {
+      await axios.post("https://my-backend.onrender.com/registration", {
         name,
         email,
         password,
@@ -65,4 +65,4 @@ function Registration() {
   );
 }
 
-export default Registration;;
+export default Registration;
